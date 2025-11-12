@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>POMODORO TIMER</h1>
+            <p>Stay focused, be productive</p>
+        </header>
+
+        <main class="main">
+            <div class="timer-circle">
+                <div class="timer-display">
+                    <div id="time" class="time">25:00</div>
+                    <div id="status" class="status">Ready to focus</div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <div class="controls">
+                <button id="start-pause" class="btn primary">START</button>
+                <button id="reset" class="btn secondary">RESET</button>
+            </div>
+
+            <div class="modes">
+                <button class="mode-btn active" data-minutes="25">Focus</button>
+                <button class="mode-btn" data-minutes="5">Break</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div class="floating-particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+</div>
+</body>
+</html>
