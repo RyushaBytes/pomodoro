@@ -18,4 +18,4 @@ A beautiful and intuitive Pomodoro timer built with vanilla JavaScript. Stay foc
 
 ## Live Demo
 
-[View Live Site](https://your-username.github.io/pomodoro-timer)
+[View Live Site](https://RyushaBytes.github.io/pomodoro)
